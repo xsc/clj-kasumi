@@ -26,7 +26,7 @@ KASUMI operates on 64-bit words which are represented as a a vector of two 32-bi
 (kasumi/decode-word64 K [3255589620 1286811847]) ;; -> [30 32]
 ```
 
-The functions `clj-kasumi.core/encode-string` and `clj-kasumi.core/decode-string` can be used to encrypt/decrypt complete strings. And finally, the function `clj-kasumi.core/string-&gt;key` creates an eight-element key vector from any given string by converting pairs of characters into 16-bit integers.
+The functions `clj-kasumi.core/encode-string` and `clj-kasumi.core/decode-string` can be used to encrypt/decrypt complete strings. And finally, the function `clj-kasumi.core/string->key` creates an eight-element key vector from any given string by converting pairs of characters into 16-bit integers.
 
 ## Thanks
 
