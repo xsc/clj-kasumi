@@ -30,7 +30,8 @@ The functions `clj-kasumi.core/encode-string` and `clj-kasumi.core/decode-string
 
 ## Thanks
 
-Thanks to Dominik Vinan for introducing me to the challenge of implementing this.
+Thanks to Dominik Vinan for introducing me to the challenge of implementing this and supplying small and useful parts 
+to begin with (even though he decided to do it in Haskell).
 
 ## License
 
